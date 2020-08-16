@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MTH5QCD');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!--Hotjar Config-->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 1388585,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <!--End Hotjar Config-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Eiffo Analytics | Data Science as a Service</title>
+    <meta name="author" content="Geoffroy Varlez" />
+    <meta name="copyright" content="Eiffo Analytics LLC">
+    <meta name="description"
+        content="Divide by 5 your churn ratio, +200% customer retention. Understand WHO will leave your subscription and WHY. Use your #data" />
+    <meta name="keywords"
+        content="Data Science, Predictive Model, Churn Prediction, Churn Ratio, Artificial Intelligence" />
+    <meta property="og:title" content="Eiffo Analytics" />
+    <meta property="og:description"
+        content="Divide by 5 your churn ratio, +200% customer retention. Understand WHO will leave your subscription and WHY. Use your #data" />
+    <meta property="og:type" content="Eiffo Analytics | Churn Prediction" />
+    <meta property="og:image" content="https://i.imgur.com/g5htcFx.png" />
+    <meta property="og:url" content="www.eiffo-analytics.com" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@EiffoA">
+    <meta name="twitter:title" content="Eiffo Analytics">
+    <meta name="twitter:image:src" content="https://i.imgur.com/g5htcFx.png">
+    <meta name="twitter:description"
+        content="Divide by 5 your churn ratio, +200% customer retention. Understand WHO will leave your subscription and WHY. Use your #data">
+    <meta itemprop="name" content="Eiffo Analytics">
+    <meta itemprop="description"
+        content="Divide by 5 your churn ratio, +200% customer retention. Understand WHO will leave your subscription and WHY. Use your #data">
+    <meta itemprop="image" content="https://i.imgur.com/g5htcFx.png">
+    <link rel="canonical" href="https://www.eiffo-analytics.com" />
+    <link rel="alternate" href="https://www.eiffo-analytics.com" hreflang="en">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/parallax.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+    <link rel="shortcut icon" type="image/png" href="Pictures/logo-color.png" />
+    <meta name="google-site-verification" content="-FbaDfQgYSKGR8hgDJq1GBrE1onAkdKtHoJwPw-lsWc" />
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe sandbox="allow-popups allow-same-origin allow-scripts allow-top-navigation"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MTH5QCD" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="loader">
+        <img src="Pictures/eiffo-fix.svg" alt="Loader" />
+    </div>
+    <nav id="nav">
+        <div class="logo">
+            <a href="index.html"><img class="logo-EA" src="Pictures/full-color.png" alt="logo-EA" /></a>
+        </div>
+        <div id="mainMenu">
+            <ul>
+                <li><a href="index.html" class="button active">Home</a></li>
+                <li><a href="solutions.html" class="button">Solutions</a></li>
+                <li><a href="product.html" class="button">Product</a></li>
+                <li><a href="blog.html" class="button">Blog</a></li>
+                <li><a href="team.html" class="button">Team</a></li>
+            </ul>
+        </div>
+        <div class="nav-btn">
+            <a href="https://raphaelpresberg.typeform.com/to/LqG1Zc" target="_blank" rel="noreferrer noopener"
+                class="demo">Request a Demo</a>
+            <a href="https://dasper.eiffo-analytics.com" target="_blank" rel="noreferrer noopener"
+                class="login-btn">Sign Up</a>
+        </div>
+        <div class="burgerMenu">
+            <div class="burger-btn">
+                <i class="icon fas fa-bars"></i>
+            </div>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="parallax-container">
+            <div class="parallax-content">
+                <div class="parallax floor"
+                    data-parallax='{"smoothness": 5,"scaleY": -1, "from-scroll": 0, "to-scroll": 900}'></div>
+                <div class="parallax layer4"
+                    data-parallax='{"y": 480, "smoothness": 5, "from-scroll": 0, "to-scroll": 900}'></div>
+                <div class="parallax layer3"
+                    data-parallax='{"y": 202, "smoothness": 5, "from-scroll": 0, "to-scroll": 900}'></div>
+                <div class="parallax layer2"
+                    data-parallax='{"y": -125, "smoothness": 5, "from-scroll": 0, "to-scroll": 900}'></div>
+                <div class="parallax layer1"
+                    data-parallax='{"y": -480, "smoothness": 5, "from-scroll": 0, "to-scroll": 900}'></div>
+                <div class="parallax layer0"
+                    data-parallax='{"y": -940, "smoothness": 5, "from-scroll": 0, "to-scroll": 900}'></div>
+            </div>
+            <div class="headline">
+                <h1>Data Science as a Service</h1>
+                <div class="typed-js">
+                    <div class="typed-js-text">
+                        <span class="animate-text"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="headline-btn">
+                <a href="https://dasper.eiffo-analytics.com" target="_blank" rel="noreferrer noopener">Get Started</a>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span class="bouncing" id="scroll">
+                Click to Scroll<br>
+                <i class="fas fa-angle-down"></i>
+            </span>
+        </div>
+        <div class="scroll-up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </header>
+
+    <main>
+        <div id="particles-js"></div>
+        <div class="container-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            data-aos-duration="1000">
+            <div class="partOne">
+                <p><strong>The First Virtual Data Scientist</strong><br><br>A platform to make Artificial
+                    Intelligence
+                    accessible for everyone.
+                </p>
+                <p>
+                    Do you have a significant number of customers leaving your company ?<br>
+                    Get your predictive churn model within a few minutes.
+                </p>
+                <div class="poc-btn">
+                    <a class="poc-link" href="https://dasper.eiffo-analytics.com" target="_blank"
+                        rel="noreferrer noopener">
+                        <span>Get Started</span>
+                        <span>
+                            <svg width="33px" height="22px" viewBox="0 0 66 43" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <path class="one"
+                                        d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                        fill="#2c7bfc"></path>
+                                    <path class="two"
+                                        d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                        fill="#2c7bfc"></path>
+                                    <path class="three"
+                                        d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                        fill="#2c7bfc"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="partTwo">
+                <img class="lazy" data-src="Pictures/new-landing.png" alt="Platform Dashboard" />
+            </div>
+            <div class="partThree" data-aos="fade-up" data-aos-duration="2000">
+                <h2>
+                    Dasper, your pocket format Data Scientist<br>
+                </h2>
+                <p>
+                    Your company has data, you need a data scientist.
+                    You don’t have any data scientist, you have Dasper.<br> He cleans your data, prepares
+                    it, enrichs it and builds predictive model based on your historical data.<br>
+                    Artificial Intelligence becomes accessible to everyone and within 5 minutes you will be able
+                    to find out which customers will churn and why
+                </p>
+            </div>
+        </div>
+        <section class="slick-slider">
+            <div class="slider">
+                <div class="post-slider" data-title="Collect Data">
+                    <span class="post-subtitle">01</span>
+                    <h4>Collect Data</h4>
+                    <div class="post-content">
+                        <p>
+                            No matter what information is important to your business,
+                            get accurate customer and product data in real-time across mobile, web, and other platforms.
+                        </p>
+                        <img data-lazy="Pictures/collect-data.jpg" alt="Collect Data" />
+                    </div>
+                </div>
+                <div class="post-slider" data-title="Identify Patterns">
+                    <span class="post-subtitle">02</span>
+                    <h4>Identify Patterns</h4>
+                    <div class="post-content">
+                        <p>
+                            Once you’ve collected data, define key business metrics and see how they trend over time.
+                            Maybe you want to
+                            see how your users grow week to week or which webpage they interact with most. Identify all
+                            the patterns that
+                            matter to your business.
+                        </p>
+                        <img data-lazy="Pictures/patterns.jpg" alt="Identify Patterns" />
+                    </div>
+                </div>
+                <div class="post-slider" data-title="Identify who will churn">
+                    <span class="post-subtitle">03</span>
+                    <h4>Identify Who Will Churn</h4>
+                    <div class="post-content">
+                        <p>
+                            Simply predict which customers will abandon the business by providing early warnings
+                            regarding customers
+                            whose lifetime value prediction has declined substantially during the recent period, even
+                            though they are
+                            still
+                            active and may not abandon the business entirely in the near future.
+                        </p>
+                        <img data-lazy="Pictures/churn-pattern.jpg" alt="Identify churners" />
+                    </div>
+                </div>
+                <div class="post-slider" data-title="Identify why they churn">
+                    <span class="post-subtitle">04</span>
+                    <h4>Identify Why They Churn</h4>
+                    <div class="post-content">
+                        <p>
+                            One metric that we feel is vital to tracking and predicting a company’s success is customer
+                            churn rate. It can
+                            be hard to understand what is causing your churn rate to increase but we can overcome what
+                            seems to be an
+                            impossible task of keeping customers happier for longer.
+                        </p>
+                        <img data-lazy="Pictures/understand-churn.jpg" alt="Identify churners" />
+                    </div>
+                </div>
+                <div class="post-slider" data-title="Take Action">
+                    <span class="post-subtitle">05</span>
+                    <h4>Take Action</h4>
+                    <div class="post-content">
+                        <p>
+                            With your plan in mind, test your hypotheses in real-time through product experiments,
+                            messaging, and
+                            personalization. Then tie them back to business metrics like conversion, engagement, and
+                            retention.
+                        </p>
+                        <img data-lazy="Pictures/take-action.jpg" alt="Take Action" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="dspr">
+                <img class="lazy" data-src="Pictures/particles-head.png" alt="particles-head" />
+                <div class="dspr-content">
+                    <div class="dspr-1">
+                        <h2>Who is Dasper ?</h2>
+                        <p>Dasper is a platform (SaaP) using your historical data to build machine learning model
+                            predicting your new data entry.</p>
+                        <ul>
+                            <li>Dasper predict which customers will churn, and why.</li>
+                            <li>Dasper guides you through all steps</li>
+                        </ul>
+                    </div>
+                    <div class="dspr-2">
+                        <h2>How to deploy Dasper ?</h2>
+                        <p>Dasper provides you API's that enable the application of your predictive model directly in
+                            your IT ecosystem</p>
+                        <ul>
+                            <li>Dasper enables real time predictions</li>
+                            <li>Dasper fits in 95% of the existing back ends</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="compare">
+                <div class="data-scientist">
+                    <h3>Hire a Data Scientist ?</h3>
+                    <img data-src="Pictures/data-scientist.png" alt="Data Scientist Picture" class="lazy" />
+                    <ul>
+                        <li><span><strong>4 to 6 months</strong></span> to hire a data scientist
+                        </li>
+                        <li><span><strong>50-70k€ / year</strong></span> + social fees</li>
+                        <li>At least <span><strong>4 months</strong></span> to get a first
+                            predictive
+                            model</li>
+                        <li><span><strong>1 month</strong></span> onboarding with a dedicated
+                            collaborator</li>
+                    </ul>
+                </div>
+                <div class="use-dspr">
+                    <h3>Use Dasper</h3>
+                    <img data-src="Pictures/dasper2.png" alt="Dasper Picture" class="lazy" />
+                    <ul>
+                        <li>Get your predictive model within <span><strong>5
+                                    minutes</strong></span>
+                        </li>
+                        <li>From <span><strong>4k€ / year</strong></span></li>
+                        <li>Deploy in production your predictive model in <span><strong>2
+                                    minutes</strong></span></li>
+                        <li>Build an <span><strong>AI company</strong></span> by creating new
+                            predictive model</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cta-container">
+                <a href="https://dasper.eiffo-analytics.com" class="callToAction" target="_blank"
+                    rel="noreferrer noopener">Hire Dasper</a>
+            </div>
+
+            <div class="waves">
+                <h3>Advantages</h3>
+                <ul>
+                    <li><img class="lazy" data-src="Pictures/money-bag.png" alt="Money bag" /><br>Save Money</li>
+                    <li><img class="lazy" data-src="Pictures/settings.png" alt="Gain efficiency" /><br>Gain in
+                        efficiency</li>
+                    <li><img class="lazy" data-src="Pictures/speed.png" alt="Win Time & Energy" /><br>Win time & energy
+                    </li>
+                    <li><img class="lazy" data-src="Pictures/group.png" alt="collaboration" /><br>Empower collaboration
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="cards">
+            <div class="card">
+                <img class="lazy" data-src="Pictures/planning.png" alt="scalable" />
+                <hr>
+                <h5>SCALABLE</h5>
+                <p>Our tool provides a Big Data environment and a powerful IT infrastructure handling high volume of
+                    data.
+                </p>
+            </div>
+            <div class="card">
+                <img class="lazy" data-src="Pictures/readyto.png" alt="collaborative" />
+                <hr>
+                <h5>READY TO PRODUCTION</h5>
+                <p>
+                    Our tool provides API's to deploy any predictive models you have trained directly in production.
+                    We are implementable in 95% of current backend.
+                </p>
+            </div>
+            <div class="card">
+                <img class="lazy" data-src="Pictures/performance.png" alt="high-performance">
+                <hr>
+                <h5>HIGH PERFORMANCE</h5>
+                <p>
+                    Our tool provides models ranked top 5% in every predictive analytics Kaggle competitions.
+                    We have reached the performance of the bests data scientists in the world (Kaggle Masters).
+                </p>
+            </div>
+            <div class="card">
+                <img class="lazy" data-src="Pictures/visualization.png" alt="data-visualization" />
+                <hr>
+                <h5>DATA ANALYTICS</h5>
+                <p>
+                    Our tool provides an automated data analytics and data visualization module to get insights from
+                    your
+                    data
+                    and create BI dashboards.
+                </p>
+            </div>
+        </div>
+
+        <div class="grid-x">
+            <div class="medium-12 large-9 cell">
+                <div id="client-testimonials" class="slideshow">
+                    <div class="content-wrapper">
+                        <div class="avatar">
+                            <img class="lazy" data-lazy="Pictures/woman-coment.png" alt="woman comment" />
+                        </div>
+                        <div class="slide-content">
+                            <cite>I have used Dasper to <strong>create groups of users</strong> for my next marketing
+                                campaign. Now, I am using the platform <strong>every single day</strong>.</cite>
+                            <name class="author">
+                                <p>&ndash; Marketing Manager - e-learning platform</p>
+                            </name>
+                        </div>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="avatar">
+                            <img class="lazy" data-lazy="Pictures/woman2-comment.png" alt="woman comment" />
+                        </div>
+                        <div class="slide-content">
+                            <cite>
+                                I wanted to implement a <strong>predictive analytics tool</strong> for my internal
+                                auditors
+                                to provide them indicators when they prepare an audit.
+                                Before each and every audit, we now run our predictive model on the Data Science
+                                Platform.
+                            </cite>
+                            <name class="author">
+                                <p>&ndash; Internal Audit Manager - Pharmaceutical Company</p>
+                            </name>
+                        </div>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="avatar">
+                            <img class="lazy" data-lazy="Pictures/man-comment.png" alt="man comment" />
+                        </div>
+                        <div class="slide-content">
+                            <cite>
+                                We were mad due to a high fraud ratio on our platform. We were losing few thousands of
+                                dollars every month due to a detected fraud.
+                                Since we have implemented Eiffo Analytics in our company, we are so much safer and our
+                                <strong>fraud ratio</strong> is constantly <strong>decreasing</strong>.
+                            </cite>
+                            <name class="author">
+                                <p>&ndash; CTO - Tech startup</p>
+                            </name>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="container">
+            <h3>Our Partners</h3>
+            <div class="customer-logos">
+                <div class="slide"><img class="lazy" data-lazy="Pictures/schenker.png" alt="schenker logo" /></div>
+                <div class="slide"><img class="lazy" data-lazy="Pictures/frenchtech.png" alt="french-tech logo" /></div>
+                <div class="slide"><img class="lazy" data-lazy="Pictures/stevens.png" alt="stevens logo" /></div>
+                <div class="slide"><img class="lazy" data-lazy="Pictures/vinci-tech.png" alt="vinci-tech logo" /></div>
+                <div class="slide"><img class="lazy" data-lazy="Pictures/vivatech.png" alt="viva-tech logo" /></div>
+                <div class="slide"><img class="lazy" data-lazy="Pictures/schoolab.png" alt="schoolab logo" /></div>
+                <div class="slide"><img class="lazy" data-lazy="Pictures/ionis.png" alt="Ionis logo" /></div>
+            </div>
+        </section>
+        <div class="AIDriven">
+            <div class="AIDriven-title">
+                <h1>Make your company AI driven</h1>
+                <h2>Set up your company for success today</h2>
+                <h3>With eiffo analytics, in Data we trust</h3>
+                <div class="contact-us">
+                    <a href="https://raphaelpresberg.typeform.com/to/LqG1Zc" class="contact-btn" target="_blank"
+                        rel="noreferrer noopener">Contact
+                        us</a>
+                </div>
+            </div>
+        </div>
+        <div class="cookie-bar">
+            <p>
+                We use cookies to understand how you use our site, analyze site traffic and to improve your experience.
+                By continuing to use our site, you accept our use of cookies and revised
+                <a href="Private-Policy.html" target="_blank" rel="noreferrer noopener">Privacy Policy</a>.
+            </p>
+            <button type="button" class="dissmiss-btn">Dismiss</button>
+            <button class="close">
+                <span class="cross">X</span>
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer1">
+                <h6 class="footer-title"><small>Links</small></h6>
+                <ul class="footer-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="mailto:contact@eiffo-analytics.com" target="_blank" rel="noreferrer noopener">Contact
+                            Us</a></li>
+                </ul>
+            </div>
+            <div class="footer2">
+                <h6 class="footer-title"><small> Contact us</small></h6>
+                <ul class="footer-list">
+                    <li>eiffo-analytics</li>
+                    <li>95 avenue Parmentier<br>
+                        75011 Paris, France
+                    <li>contact@eiffo-analytics.com</li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <h6 class="footer-title"><small>Follow us</small></h6>
+                <div class="sub-btn">
+                    <a href="https://dasper.eiffo-analytics.com" class="subscribe-btn" target="_blank"
+                        rel="noreferrer noopener">Subscribe</a>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/eiffoAnalytics" target="_blank"
+                                rel="noreferrer noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/eiffo-analytics/" target="_blank"
+                                rel="noreferrer noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/EiffoA" target="_blank" rel="noreferrer noopener"><i
+                                    class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/eiffo_analytics/" target="_blank"
+                                rel="noreferrer noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2019 All rights reserved by Eiffo Analytics LLC</p>
+            <a href="Private-Policy.html" target="_blank" rel="noreferrer noopener">Private Policy</a>
+            <a href="Terms-Conditions.html" target="_blank" rel="noreferrer noopener">Terms & Conditions</a>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <script src="js/jquery.lazy.plugins.min.js"></script>
+    <script src="js/jquery.parallax-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+    <script src="js/jquery.scrollintoview.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="particles-settings.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+Sitemap: https://www.eiffo-analytics.com/sitemap.xml
+User-agent : *
+Disallow :
